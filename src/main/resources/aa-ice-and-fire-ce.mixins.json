@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "fr.kanade009241.aaiceandfirece.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

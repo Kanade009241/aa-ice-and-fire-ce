@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "aa-ice-and-fire-ce",
+	"version": "${version}",
+	"name": "Antique Atlas - Ice and Fire CE",
+	"description": "Adds Antique Atlas map markers for Ice and Fire CE",
+	"authors": [
+		"kanade009241"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY 4.0",
+	"icon": "assets/aa-ice-and-fire-ce/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.kanade009241.aaiceandfirece.AntiqueAtlasAddonIceAndFireCE"
+		],
+		"client": [
+			"fr.kanade009241.aaiceandfirece.client.AntiqueAtlasAddonIceAndFireCEClient"
+		]
+	},
+	"mixins": [
+		"aa-ice-and-fire-ce.mixins.json",
+		{
+			"config": "aa-ice-and-fire-ce.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"antique_atlas": ">=3.0.0+1.20"
+	}
+}
