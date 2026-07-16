@@ -10,7 +10,7 @@ Adds custom **Antique Atlas 4** markers for structures from **Ice and Fire CE**.
 
 ## Preview
 
-![Illustration](images/image_description)
+![Illustration](images/image_description.png)
 
 ## Requirements
 
