@@ -8,6 +8,10 @@ Adds custom **Antique Atlas 4** markers for structures from **Ice and Fire CE**.
 * Hand-drawn icons matching the style of Antique Atlas.
 * Designed for **Minecraft 1.20.1** using **Fabric**.
 
+## Preview
+
+![Illustration](images/image_description)
+
 ## Requirements
 
 * Minecraft 1.20.1
